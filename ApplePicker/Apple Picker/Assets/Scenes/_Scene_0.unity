@@ -295,6 +295,45 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 54209175606288612, guid: 3e96aac68ce947a488257da790766112,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629001693338036, guid: 3e96aac68ce947a488257da790766112, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1288015474512230, guid: 3e96aac68ce947a488257da790766112, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1540497325415242, guid: 3e96aac68ce947a488257da790766112, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e96aac68ce947a488257da790766112, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1375550693 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1629001693338036, guid: 3e96aac68ce947a488257da790766112,
+    type: 2}
+  m_PrefabInternal: {fileID: 867497372}
+--- !u!114 &1375550694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1375550693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19e0a1b3757131f438c8090b8a514e60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  applePrefab: {fileID: 1199637716846004, guid: a53a2a442990b2c4ba876dd249d50121,
+    type: 2}
+  speed: 5
+  leftAndRightEdge: 24
+  chanceToChangeDirections: 0.01
+  secondsBetweenAppleDrops: 1
